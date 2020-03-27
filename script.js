@@ -51,7 +51,7 @@ class Calculator {
             if (current === 0) {
             this.clear()
             this.currentOperand = 'You cannot divide by zero';
-            
+            return;
             }
             else if (current !== 0) {
             computation = prev / current;
